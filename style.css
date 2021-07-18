@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Lobster");
 @import url("https://fonts.googleapis.com/css?family=Indie+Flower");
+
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -70,7 +71,7 @@ body {
 }
 
 #card-inside {
-  font-size: 1.3em;
+  font-size: 1.0em;
   line-height: 1.4;
   font-family: "Lobster";
   color: #331717;
@@ -89,7 +90,7 @@ p.signed {
   margin-top: 1.5em;
   text-align: center;
   font-family: "Indie Flower", cursive;
-  font-size: 1.5em;
+  font-size: 0.5em;
 }
 
 #card-front {
@@ -293,6 +294,7 @@ footer {
 /* ============================================== Animation Fire
 */
 @-webkit-keyframes fuego {
+
   0%,
   100% {
     background: rgba(254, 248, 97, 0.5);
@@ -301,6 +303,7 @@ footer {
     -webkit-transform: translateY(0) scale(1);
     transform: translateY(0) scale(1);
   }
+
   50% {
     background: rgba(255, 50, 0, 0.1);
     -webkit-box-shadow: 0 0 40px 20px rgba(248, 233, 209, 0.2);
@@ -309,7 +312,9 @@ footer {
     transform: translateY(-20px) scale(0);
   }
 }
+
 @keyframes fuego {
+
   0%,
   100% {
     background: rgba(254, 248, 97, 0.5);
@@ -318,6 +323,7 @@ footer {
     -webkit-transform: translateY(0) scale(1);
     transform: translateY(0) scale(1);
   }
+
   50% {
     background: rgba(255, 50, 0, 0.1);
     -webkit-box-shadow: 0 0 40px 20px rgba(248, 233, 209, 0.2);
@@ -326,18 +332,21 @@ footer {
     transform: translateY(-20px) scale(0);
   }
 }
+
 @-webkit-keyframes in {
   to {
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
 }
+
 @keyframes in {
   to {
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
 }
+
 .text {
   color: #8b6a60;
   font-family: "Lobster", cursive;
@@ -420,14 +429,17 @@ footer {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
 }
+
 @keyframes fade-in {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
